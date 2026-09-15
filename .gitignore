@@ -1,6 +1,11 @@
 # Whale data (not to be tracked in git)
 data/raw/
-data/working/
+
+# data/working: ignore everything except tracked ice/geographic reference files
+data/working/*
+!data/working/ice_sum_results.rds
+!data/working/bathymetry_f.rds
+!data/working/world.RDS
 
 # History files
 .Rhistory
